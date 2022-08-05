@@ -54,7 +54,7 @@ fa-tachometer, fa-windows, fa-bookmark, fa-area-chart, fa-table
 
 ## Section
 - Legyen a tetején egy h1 elem "Dashboard" tartalommal.
-- Alatta legyen egy breadcrumb, ez egy div legyen "main__breadcrumb" osztállyal.
+- Alatta legyen egy breadcrumb, ez egy div legyen "main_breadcrumb" osztállyal.
 - Háttérszíne 233,236,239 legyen.
 - A szegély lekerekítése .25 legyen a roothoz képest.
 - A felirat benne szintén "Dashboard" legyen.

@@ -2,7 +2,7 @@
   background-color: rgb(51, 57, 64);
   color: rgb(236, 236, 236);
   padding: 15px;
-  
+  max-width: 100%;
 }
 
 .header__title {
@@ -14,6 +14,7 @@
   display: inline;
   float: right;
   align-items: center;
+  grid: none;
 }
 
 .search__input {
@@ -33,11 +34,33 @@
 
 .search__btn {
   background-color: rgb(0, 123, 255);
+  width: 1;
+}
+.flex-main_nav {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  width: 180px;
+  height: 500px;
+}
+.flex-menu_a {
+  display: flex;
+  float: left;
+  width: 50px;
+  height: 10px;
+  margin: 20px;
+  justify-content: left;
 }
 
 .main__nav {
   background-color: rgb(33, 37, 41);
   float: left;
+}
+
+.nav__ul {
+color: gray;
+  list-style-type: none;
+  padding-bottom: 115px;
 }
 
 .main__breadcrumb {
@@ -50,60 +73,63 @@
   margin-bottom: 20px;
 }
 
-.card__top, .card__bottom {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+.card__top,
+.card__bottom {
+  border-radius: 0.25rem;
   transition: background-color 0.3s;
   padding-top: 10px;
-  padding-left:30px;
-  padding-right:100px;
-  
-  
+  padding-left: 30px;
+  padding-right: 100px;
+  color: white;
 }
 
+.card__top{
+  border-bottom: rgba(0, 0, 0, 0.397);
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+
 .main__card--blue {
-    display: inline-block;
+  display: inline-block;
   background-color: rgb(0, 123, 255);
   transition: color 3s;
-  
+
   margin-right: 10px;
 }
 
 .main__card--yellow {
-    display: inline-block;
+  display: inline-block;
   background-color: rgb(255, 193, 7);
   transition: color 3s;
-  
+
   margin-right: 10px;
-    
 }
 
 .main__card--green {
-    display: inline-block;
+  display: inline-block;
   background-color: rgb(40, 167, 69);
   transition: color 3s;
-  
+
   margin-right: 10px;
 }
 
 .main__card--red {
-    display: inline-block;
-   background-color: rgb(220, 53, 69);
+  display: inline-block;
+  background-color: rgb(220, 53, 69);
   transition: color 3s;
-  
   margin-right: 10px;
 }
-
-.nav__ul {
-    color: gray;
-    list-style-type: none;
-}
 .content {
-    margin-left: 190px;
-    
-
+  margin-left: 190px;
 }
 
 aside {
-    height: 2vh;
+  height: 2vh;
+}
+.card__bottom1 {
+  background-color: rgb(2, 108, 221);
 }
