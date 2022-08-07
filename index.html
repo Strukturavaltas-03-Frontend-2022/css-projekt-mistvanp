@@ -11,80 +11,115 @@
 </head>
 
 <body>
-    
+
     <header class="header--dark">
-        <h3 class="header__title">
-            Admin Page
-        </h3>
-        <div class="header__search">
-            <input class="search__input" type="search" name="search" placeholder="Search..">
-            <button class="search__btn" type="button">
-                <span class="icon"><i class="fa fa-search"></i></span>
-            </button>
+    <div class="flex-navbar">
+        <div class="header__title-container">
+            <h3 class="header__title">
+                Admin Page
+            </h3>
         </div>
+        <div class="header__search-container">
+            <span class="icon"><i class="fa fa-bars" aria-hidden="true"></i></i></span>
+            <div class="header__search">
+                <input class="search__input" type="search" name="search" placeholder="Search..">
+                <button class="search__btn" type="button">
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                </button>
+                <span class="icon-profil"><i class="fa fa-user" aria-hidden="true"></i><i class="fa fa-caret-down" aria-hidden="true"></i>
+                </span>
+            </div>
+        </div>
+    </div>
     </header>
     <main>
         <aside>
             <div class="flex-main_nav">
-            <nav class="main__nav">
-                <ul class="nav__ul">
-                    <li class="flex-menu_a">
+                <nav class="main__nav">
+                    <ul class="nav__ul">
+                        <li class="flex-menu_a">
 
-                        <a>CORE</a>
-                    </li>
-                    <li class="flex-menu_a">
-                        <span class="icon"><i class="fa fa-tachometer"></i></span>
-                        <a>Dashboard</a>
-                    </li>
-                    <li class="flex-menu_a">
+                            <p class="menu_label">CORE</p>
+                        </li>
+                        <li class="menu_a">
+                            <span class="icon"><i class="fa fa-tachometer"></i></span>
+                            <a>Dashboard</a>
+                        </li>
+                        <li class="flex-menu_a">
 
-                        <a>INTERFACE</a>
-                    </li>
-                    <li class="flex-menu_a">
-                        <span class="icon"><i class="fa fa-windows"></i></span>
-                        <a>Layouts </a>
-                        <span class="icon1"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                    </li>
-                    <li class="flex-menu_a">
-                        <span class="icon1"><i class="fa fa-bookmark"></i></span>
-                        <a>Pages</a>
-                        <span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                    </li>
-                    <li class="flex-menu_a">
+                            <p class="menu_label">INTERFACE</p>
+                        </li>
+                        <li class="flex-menu_a">
+                            <div>
 
-                        <a>ADDONS</a>
-                    </li>
-                    <li class="flex-menu_a">
-                        <span class="icon"><i class="fa fa-area-chart"></i></span>
-                        <a>Charts</a>
-                    </li>
-                    <li class="flex-menu_a">
-                        <span class="icon"><i class="fa fa-table"></i></span>
-                        <a>Tables</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+                                <span class="icon"><i class="fa fa-windows"></i></span>
+                                <a>Layouts </a>
+                            </div>
+                            <span class="icon1"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                        </li>
+                        <li class="flex-menu_a">
+                            <div>
+
+                                <span class="icon1"><i class="fa fa-bookmark"></i></span>
+                                <a>Pages</a>
+                            </div>
+                            <span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                        </li>
+                        <li class="flex-menu_a">
+
+                            <p class="menu_label">ADDONS</p>
+                        </li>
+                        <li class="menu_a">
+                            <span class="icon"><i class="fa fa-area-chart"></i></span>
+                            <a>Charts</a>
+                        </li>
+                        <li class="menu_a">
+                            <span class="icon"><i class="fa fa-table"></i></span>
+                            <a>Tables</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </aside>
         <section class="content">
             <h1>Dashboard</h1>
             <div class="main__breadcrumb">Dashboard</div>
             <div class="main__cards">
                 <div class="main__card main__card--blue">
-                    <div class="card__top"><h4>Primary Card</h4></div>
-                    <div class="card__bottom card__bottom1"><p>View Detalis</p></div>
+                    <div class="card__top">
+                        <h4>Primary Card</h4>
+                    </div>
+                    <div class="card__bottom">
+                        <p>View Detalis</p>
+                        <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                    </div>
                 </div>
                 <div class="main__card main__card--yellow">
-                    <div class="card__top"><h4>Warning Card</h4></div>
-                    <div class="card__bottom"><p>View Detalis</p></div>
+                    <div class="card__top">
+                        <h4>Warning Card</h4>
+                    </div>
+                    <div class="card__bottom">
+                        <p>View Detalis</p>
+                        <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                    </div>
                 </div>
                 <div class="main__card main__card--green">
-                    <div class="card__top"><h4>Success Card</h4></div>
-                    <div class="card__bottom"><p>View Detalis</p></div>
+                    <div class="card__top">
+                        <h4>Success Card</h4>
+                    </div>
+                    <div class="card__bottom">
+                        <p>View Detalis</p>
+                        <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                    </div>
                 </div>
                 <div class="main__card main__card--red">
-                    <div class="card__top"><h4>Danger Card</h4></div>
-                    <div class="card__bottom"><p>View Detalis</p></div>
+                    <div class="card__top">
+                        <h4>Danger Card</h4>
+                    </div>
+                    <div class="card__bottom">
+                        <p>View Detalis</p>
+                        <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                    </div>
                 </div>
             </div>
 
